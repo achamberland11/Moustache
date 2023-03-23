@@ -31,7 +31,6 @@ public class Personnage : MonoBehaviour
     public GameObject moustache;  //GameObject de la moustache
 
     //Variable Son (AudioClip)
-    public AudioClip sonMarche;  //Son qui s'active lorsque le joueur se déplace
     public AudioClip sonSaut;  //Son qui s'active lorsque le joueur saute
     public AudioClip sonMort;  //Son qui s'active lorsque le joueur meurt
     public AudioClip sonAttaque;  //Son qui s'active lorsque le joueur attaque
@@ -419,12 +418,17 @@ public class Personnage : MonoBehaviour
     void AfficherMenu()
     {
         menu.gameObject.SetActive(true);
+        if (estEnVie)
+        {
+            Time.timeScale = 0;
+        }
     }
 
     //Ferme le menu avec la touche ESC lorsque celui-ci a été ouvert avec la touche ESC
     void FermerMenu()
     {
         menu.gameObject.SetActive(false);
+        Time.timeScale = 1;
     }
 
     //Recharger le niveau
