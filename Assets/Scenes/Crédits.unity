@@ -321,6 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -550,8 +551,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921507511}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -4.22, z: 0}
-  m_LocalScale: {x: 30.513, y: 30.513, z: 30.513}
+  m_LocalPosition: {x: -5.88, y: -4.25, z: 0}
+  m_LocalScale: {x: 24.9932, y: 24.9932, z: 24.9932}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1831108027}
@@ -1058,7 +1059,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623571246}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.89, z: 0}
+  m_LocalPosition: {x: 0, y: 2.01, z: 0}
   m_LocalScale: {x: 0.69, y: 0.69, z: 0.69}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1123,7 +1124,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F\xC9LICITATION\nVOUS AVEZ TERMIN\xC9 LE JEUX"
+  m_text: "F\xC9LICITATIONS\nVOUS AVEZ TERMIN\xC9 LE JEUX"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0b0784bfca800d478b095b06bf17779, type: 2}
   m_sharedMaterial: {fileID: -1552933677306253780, guid: a0b0784bfca800d478b095b06bf17779, type: 2}
@@ -1186,7 +1187,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -300.0711, y: -16.846106, z: -300.07108, w: -38.956585}
+  m_margin: {x: -300.0711, y: -24.428453, z: -300.07108, w: -21.62553}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -7,7 +7,6 @@ public class OuverturePorteClee : MonoBehaviour
 {
     public bool ouvrirPorte = false;  //Bool qui détermine si le joueur est devant la porte
     public Personnage scriptJoueur; //GameObject du joueur
-    public GameObject fondu;  //GameObject du fondu en début et en fin de niveau
 
 
     private void Update()
@@ -41,7 +40,6 @@ public class OuverturePorteClee : MonoBehaviour
 
     void AnimationFondu()
     {
-        fondu.gameObject.GetComponent<Animator>().SetTrigger("fonduFermeture");
         Invoke("SceneSuivante", 2f);
     }
 

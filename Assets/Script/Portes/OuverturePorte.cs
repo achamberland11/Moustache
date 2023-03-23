@@ -6,7 +6,6 @@ using UnityEngine;
 public class OuverturePorte : MonoBehaviour
 {
     public bool ouvrirPorte = false;  //Bool qui détermine si le joueur est devant la porte
-    public GameObject fondu;  //GameObject du fondu en début et en fin de niveau
 
     private void Update()
     {
@@ -39,7 +38,6 @@ public class OuverturePorte : MonoBehaviour
 
     void AnimationFondu()
     {
-        fondu.gameObject.GetComponent<Animator>().SetTrigger("fonduFermeture");
         Invoke("SceneSuivante", 2f);
     }
 
